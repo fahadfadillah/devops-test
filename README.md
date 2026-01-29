@@ -115,10 +115,13 @@ Membuktikan Node.js app berjalan di Docker container, tidak dapat diakses langsu
 5. Curl Rejected via IP Public
 <img width="662" height="220" alt="curl_ip_public" src="https://github.com/user-attachments/assets/e58d3981-0cc8-4bbc-8a2f-78a782fb37b1" />
 
+<img width="662" height="220" alt="curl_ip_public" src="https://github.com/user-attachments/assets/02847528-6edc-4883-bf89-67525df218cd" />
+
 ==========================================
 
 ### TASK Manual CI/CD (deploy.sh)
-### Objective
+### Objective![Uploading curl_ip_public.png…]()
+
 
 Membuat pipeline deployment sederhana tanpa menggunakan tools CI/CD dan membuktikan script deploy.sh berjalan dan idempotent.
 
