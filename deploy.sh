@@ -9,7 +9,7 @@ mkdir -p /opt/app/src
 echo "deploy $(date)" > /opt/app/src/version.txt
 
 echo "=== [2] Build Docker image ==="
-docker build -t $IMAGE_NAME /opt/docker-app
+docker build -t $IMAGE_NAME /opt/app/docker-app
 
 echo "=== [3] Stop & remove old container (if exists) ==="
 docker stop $APP_NAME 2>/dev/null || true
