@@ -25,7 +25,7 @@ Backend **tidak dapat diakses langsung via public IP**, hanya melalui reverse pr
 ================================================
 
 ### TASK 1  Server Hardening
-###Objective
+### Objective
 
 Mengamankan server sebelum aplikasi dijalankan.
 
