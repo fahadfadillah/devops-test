@@ -13,14 +13,40 @@ Backend **tidak dapat diakses langsung via public IP**, hanya melalui reverse pr
 
 ```text
 
-/opt/app
- |-- deploy.sh
-     |-- src/
-     |-- version.txt
- |-- docker-app/
-     |-- Dockerfile
-     |-- app/
-         |-- index.js
+|-- README.md
+|-- build
+|   |-- Dockerfile
+|   `-- app
+|       `-- index.js
+|-- deploy.sh
+|-- docker-app
+|   |-- Dockerfile
+|   `-- app
+|       `-- index.js
+|-- docs
+|   `-- screenshots
+|       |-- curl_domain.png
+|       |-- curl_ip_public.png
+|       |-- docker_ps.png
+|       |-- docker_status.png
+|       |-- gitstatus.png
+|       |-- nginx_status.png
+|       |-- task1-firewall_status.png
+|       |-- task1-hosts.png
+|       |-- task1-id_devopsuser.png
+|       |-- task1-sshd_config.png
+|       |-- task2-nginx_enable.png
+|       |-- task2-nginx_reverse_proxy.png
+|       |-- task2-nginx_test.png
+|       |-- task2-port_pyhton.png
+|       |-- task3-port_nodejs.png
+|       |-- task4-first_run.png
+|       `-- task4-second_run.png
+|-- nginx
+|   `-- devops.local.conf
+`-- src
+    `-- version.txt
+
 
 ================================================
 
