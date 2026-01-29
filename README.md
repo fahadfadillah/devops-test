@@ -32,8 +32,6 @@ Mengamankan server sebelum aplikasi dijalankan.
 ### Implementation
 
 1. Membuat user non-root devopsuser
-<img width="475" height="272" alt="curl_domain" src="https://github.com/user-attachments/assets/0a239843-b999-49ee-88ea-d9c9fc0b03d4" />
-
 ![Task1 devopsuser](docs/screenshots/task1-id_devopsuser.png)
 
 2. Nonaktifkan login SSH untuk root
