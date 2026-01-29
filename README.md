@@ -14,13 +14,13 @@ Backend **tidak dapat diakses langsung via public IP**, hanya melalui reverse pr
 ```text
 
 /opt/app
- |--âdeploy.sh
-	â|-- src/
-â    |-- version.txt
+ |-- deploy.sh
+     |-- src/
+     |-- version.txt
  |-- docker-app/
-    â|-- Dockerfile
-    â|-- app/
-        â|-- index.js
+     |-- Dockerfile
+     |-- app/
+         |-- index.js
 
 ================================================
 
@@ -31,11 +31,17 @@ Mengamankan server sebelum aplikasi dijalankan.
 
 ### Implementation
 
-Membuat user non-root
+1. Membuat user non-root devopsuser
+![Task1 devopsuser](/opt/app/docs/screenshots/task1- Id_devopsuser)
 
-### Disable SSH login untuk root
+2. Nonaktifkan login SSH untuk root
+![Task1 Disable Root Login](/opt/app/docs/screenshots/task1-sshd_config)
 
-Enable UFW firewall
+3. Enable firewall (UFW)
+![Task1 Disable Root Login](/opt/app/docs/screenshots/task1-firewall_status)
+
+3. Add Domain devops.local
+![Task1 Disable Root Login](/opt/app/docs/screenshots/task1-hosts)
 
 ==============================================
 
