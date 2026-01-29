@@ -114,8 +114,7 @@ Membuktikan Node.js app berjalan di Docker container, tidak dapat diakses langsu
 
 5. Curl Rejected via IP Public
 <img width="662" height="220" alt="curl_ip_public" src="https://github.com/user-attachments/assets/e58d3981-0cc8-4bbc-8a2f-78a782fb37b1" />
-
-<img width="662" height="220" alt="curl_ip_public" src="https://github.com/user-attachments/assets/02847528-6edc-4883-bf89-67525df218cd" />
+<img width="475" height="272" alt="curl_domain" src="https://github.com/user-attachments/assets/7f3c7685-fd29-491f-9385-959d5d1534e5" />
 
 ==========================================
 
