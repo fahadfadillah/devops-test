@@ -51,7 +51,7 @@ Backend **tidak dapat diakses langsung via public IP**, hanya melalui reverse pr
 ### Task 1 Hardening Server
 ### Objective
 
-Mengamankan server sebelum aplikasi dijalankan.
+Secure server sebelum aplikasi dijalankan.
 
 ### Implementation
 
@@ -140,16 +140,14 @@ Membuat pipeline deployment sederhana tanpa menggunakan tools CI/CD dan membukti
 
 # Conclusion
 
-- Seluruh requirement pada technical test telah diimplementasikan dengan baik:
-
-- Server aman
-
-- Backend tidak terekspos langsung
-
-- Aplikasi ter-containerize
-
-- Deployment dapat diulang (idempotent)
-
-- Dokumentasi lengkap dan terstruktur
+- Seluruh requirement pada technical test telah berhasil di implementasikan dan untuk result nya dalam bentuk capture diatas dan berikut folder nya : (https://github.com/fahadfadillah/devops-test/tree/master/docs/screenshots)
+- Secure server karena tidak dapat di akses menggunakan login root.
+- Phyton menggunakan port 9000 dan nodejs menggunakan port 8000 yang di foward oleh nginx reverse proxy dari port 80.
+- Terdapat issue pada saat isntall port container menggunakan port dengan issue dari sisi kernel sehingga untuk port nya dirubah ke 8000 namun tetap foward dan port 80.
+- Metode pengetesan nya disini saya menggunakan curl untuk akses menggunakan domain result nya accepted sedangkan apabila menggunakan IP Public result nya rejected. 
+- Backend tidak terekspos langsung karena diatur oleh reverse proxy nginx.
+- Aplikasi ter-containerize menggunakan nodejs sebagai aplikasi sederhana/
+- Deployment dapat diulang (idempotent) dan sudah berhasil dalam pengetesan.
+- Dokumentasi dibuat berurutan sesuai dengan task.
 
 
