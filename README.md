@@ -138,7 +138,7 @@ Membuat pipeline deployment sederhana tanpa menggunakan tools CI/CD dan membukti
 
 ==========================================
 
-# Conclusion
+# Kesimpulan Pengetesan
 
 - Seluruh requirement pada technical test telah berhasil di implementasikan dan untuk result nya dalam bentuk capture diatas dan berikut folder nya : (https://github.com/fahadfadillah/devops-test/tree/master/docs/screenshots)
 - Secure server karena tidak dapat di akses menggunakan login root.
@@ -148,6 +148,7 @@ Membuat pipeline deployment sederhana tanpa menggunakan tools CI/CD dan membukti
 - Backend tidak terekspos langsung karena diatur oleh reverse proxy nginx.
 - Aplikasi ter-containerize menggunakan nodejs sebagai aplikasi sederhana/
 - Deployment dapat diulang (idempotent) dan sudah berhasil dalam pengetesan.
+- Struktur file sudah dibuat sesuai dengan task dan di install pada direktori /opt
 - Dokumentasi dibuat berurutan sesuai dengan task.
 
 
