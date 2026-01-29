@@ -7,7 +7,8 @@
 
 Backend **tidak dapat diakses langsung via public IP**, hanya melalui reverse proxy.
 
----
+---<img width="475" height="272" alt="curl_domain" src="https://github.com/user-attachments/assets/376e915a-82b1-409d-a566-0b5769d9c496" />
+
 
 ## Repository Structure
 
