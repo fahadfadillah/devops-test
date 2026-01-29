@@ -32,16 +32,16 @@ Mengamankan server sebelum aplikasi dijalankan.
 ### Implementation
 
 1. Membuat user non-root devopsuser
-![Task1 devopsuser](/opt/app/docs/screenshots/task1- Id_devopsuser)
+![Task1 devopsuser](docs/screenshots/task1-id_devopsuser.png)
 
 2. Nonaktifkan login SSH untuk root
-![Task1 Disable Root Login](/opt/app/docs/screenshots/task1-sshd_config)
+![Task1 Disable Root Login](docs/screenshots/task1-sshd_config.png)
 
 3. Enable firewall (UFW)
-![Task1 Disable Root Login](/opt/app/docs/screenshots/task1-firewall_status)
+![Task1 Disable Root Login](docs/screenshots/task1-firewall_status.png)
 
 3. Add Domain devops.local
-![Task1 Disable Root Login](/opt/app/docs/screenshots/task1-hosts)
+![Task1 Disable Root Login](docs/screenshots/task1-hosts.png)
 
 ==============================================
 
