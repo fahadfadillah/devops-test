@@ -52,6 +52,8 @@ Backend **tidak dapat diakses langsung via public IP**, hanya melalui reverse pr
 ### Objective
 
 Secure server sebelum aplikasi dijalankan.
+<img width="475" height="272" alt="curl_domain" src="https://github.com/user-attachments/assets/a1ce66bd-04fa-4038-833d-b32768e2523b" />
+<img width="475" height="272" alt="curl_domain" src="https://github.com/user-attachments/assets/1b0b9c9e-9672-439d-83ad-3a2c77415d4e" />
 
 ### Implementation
 
